@@ -1,7 +1,8 @@
 // ==UserScript==
 // @name        google cal weekend color
-// @namespace   google cal weekend color
+// @namespace   https://www.google.com/calendar/
 // @include     https://www.google.com/calendar/*
+// @description adds a redish color to weekends on google calendar
 // @version     1
 // @grant       none
 // ==/UserScript==

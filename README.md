@@ -11,3 +11,7 @@ I don't allow Youtube to save cookies (where e.g. the language settings are
 stored).
 This will automatically close the alert which shows on the top of the page about
 the language settings.
+
+
+## Twitch Automatic Theatre Mode (twitch_theatre_mode.js)
+Automatically switches to theatre mode on Twitch.tv

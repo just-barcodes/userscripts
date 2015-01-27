@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name        youtube hide lang alert bar
-// @namespace   youtube hide lang alert bar
+// @namespace   http://www.youtube.com/
 // @include     https://www.youtube.com/*
 // @include     http://www.youtube.com/*
+// @description removes the language alert bar on youtube
 // @version     1
 // @grant       none
 // ==/UserScript==
