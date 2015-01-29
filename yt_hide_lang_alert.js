@@ -7,9 +7,15 @@
 // @version     1
 // @grant       none
 // ==/UserScript==
-
-function clearAlert() {
-  document.getElementById("yt-lang-alert-container").style.display = "none";
-}
-
-setInterval(clearAlert, 2000); //workaround, since I haven't yet figured out, how to call clearAlert() when new video loads in a playlist...
+(function () {
+  function clearAlert() {
+    var ytalert = document.getElementById('yt-lang-alert-container');
+    if (ytalert !== null) {
+      ytalert.style.display = 'none';
+    }
+    if (intv !== '') {
+      clearInterval(intv);
+    }
+  }
+  var intv = setInterval(clearAlert, 2000); //workaround, since I haven't yet figured out, how to call clearAlert() when new video loads in a playlist...
+}) ();
