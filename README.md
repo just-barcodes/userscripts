@@ -13,5 +13,14 @@ This will automatically close the alert which shows on the top of the page about
 the language settings.
 
 
+## Automatically swtich to original twitch-stream (auto_twitch_teamliquid.js)
+Automatically redirects to the original stream (usually twitch) from the
+embedded iFrame on the following sites:
+- http://www.teamliquid.net/
+- http://www.liquiddota.com/
+- http://www.liquidlegends.net/
+- http://www.liquidhearth.com/
+
+
 ## Twitch Automatic Theatre Mode (twitch_theatre_mode.js)
 Automatically switches to theatre mode on Twitch.tv
