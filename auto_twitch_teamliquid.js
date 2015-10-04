@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        auto_twitch_teamliquid
 // @namespace   http://www.teamliquid.net
-// @include     http://www.teamliquid.net/streams/*
+// @include     http://www.teamliquid.net/video/streams/*
 // @include     http://www.liquiddota.com/stream/*
 // @include     http://www.liquidlegends.net/stream/*
 // @include     http://www.liquidhearth.com/stream/*
