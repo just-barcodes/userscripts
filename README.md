@@ -13,7 +13,7 @@ This will automatically close the alert which shows on the top of the page about
 the language settings.
 
 
-## Automatically swtich to original twitch-stream (auto_twitch_teamliquid.js)
+## Automatically redirect to original twitch-stream (auto_twitch_teamliquid.js)
 Automatically redirects to the original stream (usually twitch) from the
 embedded iFrame on the following sites:
 - http://www.teamliquid.net/
@@ -22,5 +22,10 @@ embedded iFrame on the following sites:
 - http://www.liquidhearth.com/
 
 
-## Twitch Automatic Theatre Mode (twitch_theatre_mode.js)
-Automatically switches to theatre mode on Twitch.tv
+## Twitch Automatic Theater Mode (twitch_theatre_mode.js)
+Automatically switches to theater mode on Twitch.tv
+
+
+## Prevent developer.mozilla.org context menu modification (mozilla_context.js)
+Prevent `developer.mozilla.org` from adding the to entries `Edit page` and `View
+page history` to the context menu.
